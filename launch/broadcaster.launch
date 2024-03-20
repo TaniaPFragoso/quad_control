@@ -1,0 +1,7 @@
+<launch>
+
+	
+	<node pkg="quad_control" type="quad_gazebo_broadcaster_node" name="quad_gazebo_bradcaster_node"  />
+	
+
+</launch>

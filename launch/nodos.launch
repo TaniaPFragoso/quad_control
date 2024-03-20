@@ -1,0 +1,9 @@
+<launch>
+
+    <node pkg="quad_control" type="control_posicion_node" name="control_posicion_node" output="screen" />
+    <node pkg="quad_control" type="dinamica_node" name="dinamica_node" output="screen"/>
+    <node pkg="quad_control" type="quad_gazebo_broadcaster_node" name="quad_gazebo_broadcaster_node" output="screen"  />
+    <node pkg="quad_control" type="referencia_dron_node" name="referencia_dron_node" output="screen" />
+    <node pkg="quad_control" type="torque_node" name="torque_node" output="screen" />
+
+</launch>
